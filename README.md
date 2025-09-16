@@ -36,25 +36,6 @@ Sets the current locale. Pass `null` or `undefined` to reset to system locale.
 
 Throws an error if the locale is invalid.
 
-## Examples
-
-```typescript
-// Basic usage
-setLocale('es-ES');
-const current = getLocale(); // "es-ES"
-
-// Reset to system
-setLocale(null);
-const system = getLocale(); // "en-US" (or your system locale)
-
-// Error handling
-try {
-  setLocale('invalid');
-} catch (error) {
-  console.error(error.message);
-}
-```
-
 ---
 
 ## 📚 Documentation
