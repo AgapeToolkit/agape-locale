@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { getLocale, setLocale } from './index';
 
 const LOCALE_KEY = Symbol.for("@agape/locale");
