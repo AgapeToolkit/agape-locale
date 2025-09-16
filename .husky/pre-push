@@ -1,0 +1,2 @@
+npx nx lint locale
+npx nx test locale --no-watch --ci
