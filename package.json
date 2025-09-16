@@ -1,7 +1,7 @@
 {
   "name": "@agape/locale",
   "version": "0.1.0",
-  "description": "Metadata annotations",
+  "description": "Locale management utilities with global state",
   "main": "./cjs/index.js",
   "module": "./es2020/index.js",
   "author": {
@@ -19,8 +19,9 @@
   },
   "keywords": [
     "agape",
-    "model",
-    "locale"
+    "locale",
+    "i18n",
+    "internationalization"
   ],
   "es2020": "./es2020/index.js",
   "exports": {
