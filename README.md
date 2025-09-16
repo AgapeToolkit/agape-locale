@@ -1,0 +1,2 @@
+# agape-locale
+Locale settings
